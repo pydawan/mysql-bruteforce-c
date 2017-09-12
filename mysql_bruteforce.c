@@ -18,7 +18,7 @@ int main (int argc, char *argv[]) {
     }
     senhas = fopen(argv[1], "r");
     if (senhas == NULL) {
-        fprintf(stderr, "Erro ao abrir o arquivo de autenticação!!!\n");
+        fprintf(stderr, "Erro ao abrir o arquivo de senhas!!!\n");
         exit(ERRO);
     }
     while (fscanf(senhas, "%s", senha_atual) != EOF) {
