@@ -7,7 +7,7 @@
 
 FILE *senhas;
 
-int main(int argc, char *argv[]) {
+int main (int argc, char *argv[]) {
     char senha_atual[50];
     char buffer[100];
 
